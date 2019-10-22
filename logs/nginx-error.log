@@ -1,0 +1,49 @@
+2019/07/19 11:12:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:16:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:16:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:17:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:17:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:17:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:17:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:17:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:17:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:18:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:18:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:18:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:18:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:18:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:18:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:18:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:19:00 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:19:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/19 11:19:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.conf:10
+2019/07/23 12:53:54 [error] 6#6: *13 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.26.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.3:9000", host: "localhost:4000"
+2019/07/25 11:34:44 [error] 7#7: *5 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/login HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost:4000"
+2019/07/25 12:20:59 [error] 6#6: *31 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/section/create HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost:4000"
+2019/07/26 15:10:41 [error] 6#6: *5 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/section/create HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost:4000"
+2019/07/27 10:33:45 [error] 6#6: *2 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/section/create HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost:4000"
+2019/07/27 10:55:16 [error] 6#6: *16 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/section/create HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost:4000"
+2019/07/27 11:22:44 [error] 9#9: *30 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/sections/3/update HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost:4000"
+2019/07/27 11:31:11 [error] 6#6: *38 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/sections/3/update HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost:4000"
+2019/07/28 10:14:41 [error] 6#6: *24 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/blogs/create HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost:4000"
+2019/07/28 10:27:22 [error] 6#6: *38 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/blogs/create HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost:4000"
+2019/07/28 10:39:05 [error] 6#6: *41 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/blogs/create HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost:4000"
+2019/07/28 10:54:50 [error] 7#7: *48 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/blogs/create HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost:4000"
+2019/07/28 10:56:37 [error] 7#7: *48 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 172.19.0.1, server: 127.0.0.1, request: "POST /api/blogs/create HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost:4000"
+2019/07/28 11:05:45 [error] 6#6: *70 directory index of "/app/src/public/css/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /css/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:16:58 [error] 7#7: *89 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:17:45 [error] 7#7: *89 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:17:46 [error] 7#7: *89 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:17:47 [error] 7#7: *89 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:17:48 [error] 7#7: *89 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:17:48 [error] 7#7: *89 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:19:05 [error] 6#6: *91 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:19:06 [error] 6#6: *91 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:20:49 [error] 6#6: *93 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:21:37 [error] 6#6: *93 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:21:38 [error] 6#6: *93 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:22:57 [error] 6#6: *95 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:22:59 [error] 6#6: *95 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:25:37 [error] 6#6: *97 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:31:55 [error] 6#6: *99 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"
+2019/07/28 11:31:56 [error] 6#6: *99 directory index of "/app/src/public/storage/" is forbidden, client: 172.19.0.1, server: 127.0.0.1, request: "GET /storage/ HTTP/1.1", host: "localhost:4000"

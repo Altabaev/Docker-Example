@@ -1,0 +1,60 @@
+version: '3'
+services:
+
+  php:
+    build:
+      context: .
+      dockerfile: php/Dockerfile
+    image: altabaev/php
+    container_name: php
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: php
+      SERVICE_TAGS: dev
+      XDEBUG_CONFIG: "remote_host=192.168.1.10 remote_enable=1"
+      PHP_IDE_CONFIG: "serverName=Docker"
+    working_dir: /app/src
+    volumes:
+      - ./:/app
+      - ./php/local.ini:/usr/local/etc/php/php.ini
+    networks:
+      - myweb
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "4000:80"
+      - "6000:443"
+    volumes:
+      - ./:/app
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+      - ./logs/nginx-access.log:/var/log/nginx/access.log
+      - ./logs/nginx-error.log:/var/log/nginx/error.log
+    networks:
+      - myweb
+
+  db:
+    image: mysql:5.7.22
+    container_name: db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: laravel
+      MYSQL_ROOT_PASSWORD: 112311
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./mysql/backup:/var/lib/mysql/
+      - ./mysql/my.cnf:/etc/mysql/my.cnf
+    networks:
+      - myweb
+
+networks:
+  myweb:
+    driver: bridge
